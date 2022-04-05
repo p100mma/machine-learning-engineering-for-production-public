@@ -3,7 +3,7 @@ import numpy as np
 from typing import List
 from fastapi import FastAPI
 from pydantic import BaseModel, conlist
-
+#additional comment for CI/CD GHA pipeline test
 
 
 app = FastAPI(title="Predicting Wine Class with batching")
